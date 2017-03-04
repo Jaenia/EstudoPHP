@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Projeto PHP</title>
-</head>
-<body>
+	<head>
+		<meta charset="utf-8"> 
+		<title>Cao - Controle Acadêmico Online</title>
+	</head>
+	<body>
+		<h1>Bem vindo ao CAO!</h1>
+		<p>Selecione uma das seguintes opções:</p>
+		<ul>
+			<li><a href="cadastro_aluno.php">Cadastrar aluno</a></li>
+			<li><a href="cadastro_professor.php">Cadastrar professor</a></li>
+			<li><a href="cadastro_disciplina.php">Cadastrar disciplina</a></li>
+			<li><a href="#">Buscar alunos de uma disciplina</a></li>
+		</ul>
 
-<?php //conexao PDO	?>
+	</body>
+	<!--</html>
 
-<?php //criacao das tabelas ?>
+		<?php //conexao PDO	?>
 
-<!-- Formulario para cadastro -->
+		<?php //criacao das tabelas ?>
 
-<?php //receber dados e cadastrar ?>
+		<!-- Formulario para cadastro -->
 
-<!-- Formulário p/ listar alunos de uma disciplina -->
+		<!--<?php //receber dados e cadastrar ?>
 
-<?php //receber dados e listar como link (ir para aluno.php) ?>
+		<!-- Formulário p/ listar alunos de uma disciplina -->
+
+		<!--<?php //receber dados e listar como link (ir para aluno.php) ?>
 
 
 
 
-</body>
+	</body>-->
 </html>
